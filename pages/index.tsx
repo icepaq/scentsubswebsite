@@ -59,7 +59,7 @@ const Home: NextPage = () => {
                 <div className={styles.favoriteBrands}>
                     <div className={styles.title}>Your Favorite Brands</div>
                     <div className={styles.text}>
-                        We carry all of your favorite brands and products. Don't see what you like? Let us know by sending an email
+                        We carry all of your favorite brands and products. Don&apos;t see what you like? Let us know by sending an email
                         to products@scentsubs.com
                     </div>
                     <div className={styles.brandBanner}>
