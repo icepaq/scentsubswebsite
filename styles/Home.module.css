@@ -1,0 +1,159 @@
+
+@media only screen and (max-width: 767px) {
+    .banner {
+        background-image: url('/mobilebanner.png');
+        background-size: cover;
+        width: 100vw;
+        height: 80vh;
+    }
+
+    .bannerTextWrapper {
+        padding-top: 150px;
+        text-align: center;
+    }
+
+    .bannerTitle {
+        color: white;
+        font-size: 45px;
+        font-weight: bold;
+    }
+
+    .bannerSubtitle {
+        color: white;
+        font-size: 16px;
+    }
+
+    .bannerButtonWrapper {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .row {
+        margin-top: 30px;
+    }    
+
+    .item {
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 80px;
+
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+    .body {
+        overflow-x: hidden;
+
+        padding-bottom: 50px;
+    }
+
+    .banner {
+        background-image: url('/banner.png');
+        background-size: cover;
+        height: 40vw;
+        width: 100vw;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .bannerTextWrapper {
+        margin-left: 100px;
+    }
+
+    .bannerTitle {
+        color: rgb(255, 255, 255);
+        font-size: 48px;
+        font-weight: bold;
+    }
+
+    .bannerSubtitle {
+        color: rgb(255, 255, 255);
+        font-size: 18px;
+    }
+
+    .row {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }    
+
+    .item {
+        width: 20%;
+    }
+}
+
+.bannerButton {
+    color: white;
+    border-color: white;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 2px;
+
+    width: fit-content;
+
+    padding: 7px 40px;
+    margin-top: 10px;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.bannerButton:hover {
+    background-color: white;
+    color: #e5ddd2;
+}
+
+.title {
+    color: #1d1d1d;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.itemTitle {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.favoriteBrands {
+    padding-top: 100px;
+    text-align: center;
+}
+
+.text {
+    margin-top: 20px;
+}
+
+.howItWorks {
+    background-color: #e7d3b7;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.footer {
+    background-color: #282828;
+    color: rgb(233, 233, 233);
+
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.columnTitle {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.columnContent {
+    margin-bottom: 10px;
+}
