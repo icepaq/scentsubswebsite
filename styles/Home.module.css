@@ -47,8 +47,6 @@
 
     .body {
         overflow-x: hidden;
-
-        padding-bottom: 50px;
     }
 
     .banner {
@@ -156,4 +154,8 @@
 
 .columnContent {
     margin-bottom: 10px;
+}
+
+.footer {
+    margin-top: 20px;
 }

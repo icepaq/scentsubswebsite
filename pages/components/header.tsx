@@ -42,16 +42,12 @@ const Header: NextPage = () => {
             <div className={styles.logoheader}>
                 <Image src="/logo.png" alt="logo" width={150} height={40} /> 
             </div>
-            
+
             <div className={styles.menuitems}>
                 <div className={styles.desktopmenuitem}><Link href="/">Home</Link></div>
                 <div className={styles.desktopmenuitem}><Link href="/">Catalogue</Link></div>
                 <div className={styles.desktopmenuitem}><Link href="/">About Us</Link></div>
                 <div className={styles.desktopmenuitem}><Link href="/">My Account</Link></div>
-            </div>
-
-            <div className={styles.login} >
-                <div className={styles.loginbutton}>Login</div>
             </div>
         </div>
     </>
