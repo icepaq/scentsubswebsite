@@ -68,19 +68,38 @@ const Home: NextPage = () => {
                     </div>
                 </div>
                 <div className={styles.footer}>
-                    <div className={styles.column}>
-                        <div className={styles.columnTitle}>
-                            Catalogue
+                    <div className={styles.footerrow}>
+                        <div className={styles.column}>
+                            <div className={styles.columnTitle}>
+                                Catalogue
+                            </div>
+                            <div className={styles.columnContent}>
+                                <Link href={'/catalogue'}>Cologne</Link>
+                            </div>
+                            <div className={styles.columnContent}>
+                                <Link href={'/catalogue'}>Perfume</Link>
+                            </div>
+                            <div className={styles.columnContent}>
+                                <Link href={'/catalogue'}>Other Fragrances</Link>
+                            </div>
                         </div>
-                        <div className={styles.columnContent}>
-                            <Link href={'/catalogue'}>Cologne</Link>
+                        <div className={styles.column}>
+                            <div className={styles.columnTitle}>
+                                Scent Subs
+                            </div>
+                            <div className={styles.columnContent}>
+                                <Link href={'/catalogue'}>About Us</Link>
+                            </div>
+                            <div className={styles.columnContent}>
+                                <Link href={'/catalogue'}>Support</Link>
+                            </div>
+                            <div className={styles.columnContent}>
+                                <Link href={'/catalogue'}>Careers</Link>
+                            </div>
                         </div>
-                        <div className={styles.columnContent}>
-                            <Link href={'/catalogue'}>Perfume</Link>
-                        </div>
-                        <div className={styles.columnContent}>
-                            <Link href={'/catalogue'}>Other Fragrances</Link>
-                        </div>
+                    </div>
+                    <div className={styles.footerrow}>
+                        <div className={styles.copyright}>ScentSubs 2022. Proudly Canadian.</div>
                     </div>
                 </div>
             </div>
