@@ -47,7 +47,7 @@ const Header: NextPage = () => {
                 <div className={styles.desktopmenuitem}><Link href="/">Home</Link></div>
                 <div className={styles.desktopmenuitem}><Link href="/">Catalogue</Link></div>
                 <div className={styles.desktopmenuitem}><Link href="/">About Us</Link></div>
-                <div className={styles.desktopmenuitem}><Link href="/">My Account</Link></div>
+                <div className={styles.desktopmenuitem}><Link href="https://myaccount.scentsubs.com/manage/main">My Account</Link></div>
             </div>
         </div>
     </>
@@ -66,7 +66,7 @@ const Header: NextPage = () => {
                 <div className={styles.mobilemenuitem}><Link href="/">Home</Link></div>
                 <div className={styles.mobilemenuitem}><Link href="/">Catalogue</Link></div>
                 <div className={styles.mobilemenuitem}><Link href="/">About Us</Link></div>
-                <div className={styles.mobilemenuitem}><Link href="/">My Account</Link></div>
+                <div className={styles.mobilemenuitem}><Link href="https://myaccount.scentsubs.com/manage/main">My Account</Link></div>
             </div>
         </div>
     </>
