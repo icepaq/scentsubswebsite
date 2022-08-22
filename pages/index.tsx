@@ -96,7 +96,7 @@ const Home: NextPage = () => {
                                 <Link href={'/catalogue'}>Support</Link>
                             </div>
                             <div className={styles.columnContent}>
-                                <Link href={'/catalogue'}>Careers</Link>
+                                <Link href={'https://scent-subs-careers.notion.site/Scent-Subs-ae462695a456476d8987317fd9ae8955'}>Careers</Link>
                             </div>
                         </div>
                     </div>
