@@ -94,8 +94,8 @@
     }
 
     .footerrow {
-        padding-left: 20%;
-        padding-right: 20%;
+        padding-left: 10%;
+        padding-right: 10%;
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
