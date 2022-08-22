@@ -1,6 +1,7 @@
 import styles from '../styles/Support.module.css'
 import Header from './components/header'
-
+import Image from 'next/image'
+import Link from 'next/link'
 
 const About = () => {
     return (
@@ -17,6 +18,17 @@ const About = () => {
                     having to worry about upfront costs.
 
                     While based in Canada, we ship internationally and offer free shipping within North America.
+                </div>
+                <div className={styles.title}>
+                    Social Media
+                </div>
+                <div className={styles.imagerow}>
+                    <a href="https://www.instagram.com/scentsubs_/" target="_blank">
+                        <span><Image src={'/ig.png'} height={'30px'} width={'30px'} /></span>
+                    </a>
+                    <a href="https://www.twitter.com/scentsubs/" target="_blank">
+                        <span><Image src={'/twitter.png'} height={'30px'} width={'30px'} /></span>
+                    </a>
                 </div>
             </div>
         </>
