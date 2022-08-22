@@ -2,6 +2,7 @@ import styles from '../styles/Support.module.css'
 import Header from './components/header'
 import Image from 'next/image'
 import Link from 'next/link'
+import Footer from './components/footer'
 
 const About = () => {
     return (
@@ -31,6 +32,7 @@ const About = () => {
                     </a>
                 </div>
             </div>
+            <Footer />
         </>
     )
 }

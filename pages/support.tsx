@@ -1,5 +1,6 @@
 import Header from './components/header'
 import styles from '../styles/Support.module.css'
+import Footer from './components/footer';
 
 const Support = () => {
     return (
@@ -37,6 +38,7 @@ const Support = () => {
                     </div>
                 </div>
             </div>
+            <Footer />
         </>
     )
 }
