@@ -14,7 +14,7 @@ const About = () => {
                 </div>
                 <div className={styles.text}>
                     Scent subs was created in 2022 by Anton, a student from Ottawa, Canada.
-                    Fragrances are a big part of one's appearance. However, many people are unsure where 
+                    Fragrances are a big part of one&apos;s appearance. However, many people are unsure where 
                     to start. Scent subs was created to help you explore different fragrances without
                     having to worry about upfront costs.
 

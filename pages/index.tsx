@@ -19,11 +19,11 @@ const Home: NextPage = () => {
                             Discover your favorite fragrance. Starting at $5 / month.
                         </div>
                         <div className={styles.bannerButtonWrapper}>
-                            <Link href={"https://myaccount.scentsubs.com/getstarted/1"}>
+                            {/* <Link href={"https://myaccount.scentsubs.com/getstarted/1"}> */}
                                 <div className={styles.bannerButton} role={'button'}>
-                                    Get Started
+                                    Launching September
                                 </div>
-                            </Link>
+                            {/* </Link> */}
                         </div>
                     </div>
                 </div>
