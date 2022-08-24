@@ -24,10 +24,10 @@ const About = () => {
                     Social Media
                 </div>
                 <div className={styles.imagerow}>
-                    <a href="https://www.instagram.com/scentsubs_/" target="_blank">
+                    <a href="https://www.instagram.com/scentsubs_/" rel='noopener'>
                         <span><Image src={'/ig.png'} height={'30px'} width={'30px'} /></span>
                     </a>
-                    <a href="https://www.twitter.com/scentsubs/" target="_blank">
+                    <a href="https://www.twitter.com/scentsubs/" rel='noopener'>
                         <span><Image src={'/twitter.png'} height={'30px'} width={'30px'} /></span>
                     </a>
                 </div>
