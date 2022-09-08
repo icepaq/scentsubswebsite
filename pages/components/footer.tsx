@@ -27,13 +27,15 @@ const Footer = () => {
                             <Link href={"/catalogue"}>Support</Link>
                         </div>
                         <div className={styles.columnContent}>
-                            <Link
+                            <a
                                 href={
-                                    "https://scent-subs-careers.notion.site/Scent-Subs-ae462695a456476d8987317fd9ae8955"
+                                    "https://icepack.notion.site/Scent-Subs-ae462695a456476d8987317fd9ae8955"
                                 }
+
+                                target={"_blank"}
                             >
                                 Careers
-                            </Link>
+                            </a>
                         </div>
                     </div>
                     <div className={styles.column}>

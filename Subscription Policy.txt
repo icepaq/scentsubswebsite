@@ -1,0 +1,20 @@
+Subscription Policy
+
+The customer (Subscriber), agrees to enter a subscription on ScentSubs.com and agrees to the following terms.
+
+Parties
+You - "the customer" or "Subscriber".
+
+14114124 Canada Inc - The owner and operator of ScentSubs.com further referred to as the "operator"
+
+Terms
+Subscription 
+	1) The customer agrees to the monthly displayed at checkout.
+	2) The subscription plan may be upgraded / downgraded in the account settings page at the click. The updated amount will be reflected 
+	   in the next invoice
+	3) A subscription can be cancelled at any time. If the customer's package has not yet been marked as packaged, a refund will be issued for the most recent payment.
+
+Data Privacy
+	1) All credit card and payments are handled by Stripe. Only authorized employees of the operator have access to the Stripe dashboard.
+	2) Your address and phone number will only be used for purposes directly related to shipping products unless you agree otherwise.
+	3) Your name, email, address and phone number will only be shared with third parties if it is necessary for shipping 

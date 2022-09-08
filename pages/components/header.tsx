@@ -46,7 +46,7 @@ const Header: NextPage = () => {
             <div className={styles.menuitems}>
                 <div className={styles.desktopmenuitem}><Link href="/">Home</Link></div>
                 <div className={styles.desktopmenuitem}><Link href="/">Catalogue</Link></div>
-                <div className={styles.desktopmenuitem}><Link href="/">About Us</Link></div>
+                <div className={styles.desktopmenuitem}><Link href="/about">About Us</Link></div>
                 <div className={styles.desktopmenuitem}><Link href="https://myaccount.scentsubs.com/manage/main">My Account</Link></div>
             </div>
         </div>
