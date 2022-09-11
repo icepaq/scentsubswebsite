@@ -32,7 +32,8 @@ const Footer = () => {
                                     "https://icepack.notion.site/Scent-Subs-ae462695a456476d8987317fd9ae8955"
                                 }
 
-                                target={"_blank"}
+                                target={"noopener"}
+                                
                             >
                                 Careers
                             </a>
