@@ -4,8 +4,27 @@ import Header from './components/header'
 import styles from '../styles/Home.module.css'
 import Link from 'next/link'
 import Footer from './components/footer'
+import Swal from 'sweetalert2'
 
 const Home: NextPage = () => {
+    const waitlist = async (e: any) => {    
+        await Swal.fire({
+            title: 'Enter your email',
+            input: 'email',
+        }).then((result) => {
+            console.log(result.value)
+            const params = new URLSearchParams()
+            params.append('email', result.value)
+            fetch('/api/waitlist', { method: 'POST', body: params });
+        })
+
+        Swal.fire({
+            title: 'Thank you!',
+            text: 'You have been added to the waitlist.',
+            icon: 'success',
+            confirmButtonText: 'Ok'
+        });
+    }
     return (
         <>
             <Header />
@@ -20,8 +39,8 @@ const Home: NextPage = () => {
                         </div>
                         <div className={styles.bannerButtonWrapper}>
                             {/* <Link href={"https://myaccount.scentsubs.com/getstarted/1"}> */}
-                                <div className={styles.bannerButton} role={'button'}>
-                                    Launching September
+                                <div className={styles.bannerButton} role={'button'} onClick={waitlist}>
+                                    Join the Waitlist
                                 </div>
                             {/* </Link> */}
                         </div>
